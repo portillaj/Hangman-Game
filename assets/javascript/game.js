@@ -131,6 +131,7 @@ function resetGame(){
 	decreaseGuess.innerHTML = "Number of Guesses Remaining: " + guessesLeft;
 	myGuessedLetters.innerHTML = " ";
 	answerArray = [];
+	document.getElementById('theWord').innerHTML = "";
 	hideButtonElement();
 	initialGameSetup();
 	hideHangman();
