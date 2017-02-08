@@ -1,0 +1,179 @@
+html {
+	background-image: url('../images/background-img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+body {
+	color: white;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+.beam {
+	float: left;
+	position: relative;
+	width: 300px;
+}
+
+#resetButton {
+	width: 90px;
+	height: 40px;
+	margin-left: 20px;
+	font-family: 'Barrio', cursive;
+	font-family: 'Indie Flower', cursive; 
+	background-color: #007BD1;
+	color: white;
+	border-radius: 5px;
+	font-size: 16px;
+	display: none;
+}
+
+#hangman-section {
+	float: left;
+	margin-right: 100px;
+}
+
+#myster-word {
+	color: white;
+}
+
+.game-section {
+	float: left;
+	font-size: 20px;
+	font-family: 'Barrio', cursive;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20px;
+	margin-right: 30px;
+	width: 400px;
+}
+
+#guessesRemaining {
+	color: #FE033D;
+}
+.image-section {
+	float: left;
+	width: 200px;
+	height: 400px;
+}
+
+#you-win, #you-lose, #theWord {
+	font-family: 'Barrio', cursive;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 6px 9px 4px rgba(0,0,0,0.50);
+	height: 35px;
+	width: 370px;
+	color:#FE033D;
+	font-size: 30px;
+}
+
+#theWord {
+	color: white;
+}
+
+#you-lose {
+	margin-bottom: 100px;
+}
+
+.image-section img {
+	display: block;
+	width: 380px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: -40px;
+	
+}
+
+.game-section h3 {
+	color: #2AA853;
+}
+.hangman {
+	margin-left: 0;
+	margin-top: 50px;
+	height: 250px;
+}
+
+#guessedLetters {
+	color: #4890E3;
+}
+
+#head, #eye1, #eye2, #mouth, #right-arm, #left-arm, #body, #left-leg, #right-leg {
+	position: absolute;
+	display: none;
+	
+}
+#head {
+	top: 40px;
+	left: 130px;
+}
+
+#eye1 {
+	top: 52px;
+	left: 138px;
+}
+
+#eye2 {
+	top: 52px;
+	left: 155px;
+}
+
+#mouth {
+	top: 65px;
+	left: 138px;
+}
+
+
+#body {
+	top: 85px;
+	left: 153px;
+}
+
+#left-arm {
+	top: 85px;
+	left: 121px;
+}
+
+#right-arm {
+	top: 80px;
+	left: 154px;
+}
+
+#right-leg {
+	top: 129px;
+	left: 153px;
+}
+
+#left-leg {
+	top: 129px;
+	left: 130px;
+}
+#mystery-word {
+	font-size: 30px;
+	color: #4890E3;
+}
+
+#mystery-word li {
+	list-style-type: none;
+	margin-left: 10px;
+	display: inline;
+
+}
+
+audio {
+	display: none;
+}
+
+

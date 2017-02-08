@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Page</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Indie+Flower" rel="stylesheet">
+</head>
+<body>
+	<img class="logo" src="assets/images/logo.png" alt="hangman Logo">
+
+	<p id="alphabet">
+	
+	</p>
+	<div class="container">
+	<div class="beam">
+		<div id="hangman-section">
+				<img id="hangman" class="hide" src="assets/images/hangman-img.png">
+				<div id="hide">
+					<img id="head" class="hide" src="assets/images/head.png">
+					<img id="body" class="hide" src="assets/images/body.png">
+					<img id="left-arm" class="hide" src="assets/images/left arm.png">
+					<img id="right-arm" class="hide" src="assets/images/right arm.png">
+					<img id="left-leg" class="hide" src="assets/images/left leg.png">
+					<img id="right-leg" class="hide" src="assets/images/right leg.png">
+					<img id="eye1" class="hide" src="assets/images/eye 1.png">
+					<img id="eye2" class="hide" src="assets/images/eye 2.png">
+					<img id="mouth" class="hide" src="assets/images/mouth.png">
+				</div>
+			<button id="resetButton" onclick="resetGame()">Play Again</button>
+		</div>
+	</div>
+
+	<div class="game-section">
+				<h3 id="wins">Wins:</h3>
+				<h3 id="losses">Losses:</h3>
+				<h3 id="guessesRemaining"></h3>
+			Guess The Movie Title</h2>
+				<p id="mystery-word"></p>
+				<h3>Letters Already Guessed: <span id="guessedLetters"></span></h3>
+		</div>
+
+	<div class="image-section">
+			<h2 id="you-win"></h2>
+			<h2 id="you-lose"></h2>
+			<h2 id="theWord"></h2>
+		</div>
+
+	<audio controls autoplay>
+  <source src="interstellar.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+		
+	</div><!--END CONTAINER-->
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
